@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="box-fundo">
+        <img src="" id="fundos">
+        <input type="text" placeholder="Insira sua Cidade" id="city">
+        <h1></h1>
+        <button id="procurar">
+            <div class="botao"></div>
+        </button>
+        <p id="temperatura" class="box-temp"><span class="temp" id="temp">0</span>&deg;C</p>
+        <p class="descricao" id="descricao">Nublado <img src="assets/chuva-icon.svg" class="icon-tempo"></p>
+        <div class="info">
+            <img src="assets/ponto-localizacao.svg" class="localizacao"> 
+            <span class="cidade" id="textocidade">Cidade</span> 
+            <img src="https://flagsapi.com/BR/flat/64.png" class="bandeira" id="bandeira">
+        </div>
+        <div class="box-detalhes">
+            <p class="umidade">
+                <img src="assets/icons8-gota-de-sangue-50 (1).png" alt="Icon Umidade" class="gota">
+                <i class="fa-solid fa-droplet"></i>
+                <span>48%</span>
+            </p>
+            <p id="vento" class="vento">
+                <img src="assets/icons8-vento-50.png" alt="Icone vento">
+                <span>3km/h</span>
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
